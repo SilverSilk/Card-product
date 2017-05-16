@@ -1,3 +1,6 @@
+*{
+    color:#fff;
+}
 .bg-top{
     background-color: #000000;
     height: 163px;
@@ -34,7 +37,7 @@ input[type="radio"]{
 input[type=radio]:checked + .lbl2{
     color: #fff;
     border-bottom: 30px solid #f68235;
-	border-left: 20px solid transparent;
+	border-left: 7px solid transparent;
 	width: 50%;
     padding-right: 10px;
     position: relative;
@@ -48,18 +51,19 @@ input[type=radio]+ .lbl2{
     text-align: center;
     display: inline-block;
     height: 30px;
-    padding-right: 10px;
+    padding-right: 9px;
     position: relative;
     top: 72px;
+    width: 50%;
 }
 input[type=radio]:checked + .lbl1{
     color: #fff;
-        border-bottom: 31px solid #f68235;
+        border-bottom: 30px solid #f68235;
     border-left: 0px solid transparent;
     border-right: 20px solid transparent;
     height: 0;
+    width: 50%;
     padding-left: 10px;
-    box-shadow: -20px -29px 0px -10px rgba(246,130,53,1);
 }
 input[type=radio]+ .lbl1{
     background-color: #e5e5e5;
@@ -67,6 +71,7 @@ input[type=radio]+ .lbl1{
     line-height: 34px;
     margin: 15px -2px;
     text-align: center;
+    width: 50%;
     display: inline-block;
     height: 30px;
     padding-left: 10px;
@@ -79,4 +84,21 @@ input[type=radio]+ .lbl1{
 .lbl1 img{
     width: 100%;
     height: 100%;
+}
+.phone img, .login img, .basket img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f68235;
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.phone{
+/*
+    background-image: url(../img/phone.png);
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+*/
+    
 }
