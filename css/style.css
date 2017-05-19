@@ -7,6 +7,11 @@
 .bg-top img{
     background-size: contain;
 }
+.logo{
+     height: 80px;
+    background: url(../img/logotype1.png) 20% 40% no-repeat;
+    background-size: cover;
+}
 .bgnav{
     background-color: transparent;
     border:none;
@@ -40,7 +45,7 @@ input[type=radio]:checked + .lbl2{
     color: #fff;
     border-bottom: 30px solid #f68235;
 	border-left: 7px solid transparent;
-	width: 30%;
+	width: 50%;
     padding-right: 10px;
 }
 input[type=radio]+ .lbl2{
@@ -52,7 +57,7 @@ input[type=radio]+ .lbl2{
     display: inline-block;
     height: 30px;
     padding-right: 9px;
-    width: 30%;
+    width: 50%;
 }
 input[type=radio]:checked + .lbl1{
     color: #fff;
@@ -60,7 +65,7 @@ input[type=radio]:checked + .lbl1{
     border-left: 0px solid transparent;
     border-right: 20px solid transparent;
     height: 0;
-    width: 30%;
+    width: 50%;
     padding-left: 10px;
 }
 input[type=radio]+ .lbl1{
@@ -69,7 +74,7 @@ input[type=radio]+ .lbl1{
     line-height: 34px;
     margin: 15px -2px;
     text-align: center;
-    width: 30%;
+    width: 50%;
     display: inline-block;
     height: 30px;
     padding-left: 10px;
