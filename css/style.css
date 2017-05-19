@@ -30,6 +30,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    padding-top: 25px;
 }
 
 input[type="radio"]{
@@ -121,11 +122,22 @@ input[type=radio]+ .lbl1{
     display: inline-block;
 }
 .nav li p{
-    padding: 10px 0;
     font-weight: bold;
 }
 .nav li a{
-    padding: 10px 5px;
+    padding: 0 5px;
     color: #f68235;
     font-weight: bold;
+}
+.search-btn{
+    border: 1px solid grey;
+}
+.form-control{
+    border: none;
+    background: black;
+    color: #fff;
+}
+.btn{
+    background: black;
+    border: none;
 }
