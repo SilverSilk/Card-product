@@ -1,4 +1,4 @@
-*{
+header{
     color:#fff;
 }
 .bg-top{
@@ -31,10 +31,6 @@
     text-transform: uppercase;
     color: #fff;
 }
-.button-st{
-  display: inline-block;  
-}
-
 
 input[type="radio"]{
     display: none;
@@ -47,6 +43,8 @@ input[type=radio]:checked + .lbl2{
 	border-left: 7px solid transparent;
 	width: 50%;
     padding-right: 10px;
+    position: relative;
+    top: 15px;
 }
 input[type=radio]+ .lbl2{
     background-color: #e5e5e5;
@@ -58,6 +56,9 @@ input[type=radio]+ .lbl2{
     height: 30px;
     padding-right: 9px;
     width: 50%;
+    position: relative;
+    top: 15px;
+    left: 2px;
 }
 input[type=radio]:checked + .lbl1{
     color: #fff;
@@ -67,6 +68,8 @@ input[type=radio]:checked + .lbl1{
     height: 0;
     width: 50%;
     padding-left: 10px;
+    position: relative;
+    top: 15px;
 }
 input[type=radio]+ .lbl1{
     background-color: #e5e5e5;
@@ -78,6 +81,9 @@ input[type=radio]+ .lbl1{
     display: inline-block;
     height: 30px;
     padding-left: 10px;
+    position: relative;
+    top: 15px;
+    left: 2px;
 }
 .lbl1{
     box-sizing: border-box;
@@ -85,6 +91,23 @@ input[type=radio]+ .lbl1{
 .lbl1 img{
     width: 100%;
     height: 100%;
+}
+.nav-top{
+    position: relative;
+    top:10px;
+    left: 35px;
+}
+.dropdown-menu{
+    left:14px;
+    top:130%;
+}
+.icon-bar{
+    background: #f68235;
+}
+.bascets img{
+    width: 40%;
+    position: relative;
+    top: 22px;
 }
 .phone img, .login img, .basket img{
     width: 30px;
@@ -94,12 +117,15 @@ input[type=radio]+ .lbl1{
     padding: 5px;
     box-sizing: border-box;
 }
-.phone{
-/*
-    background-image: url(../img/phone.png);
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-*/
-    
+.nav li{
+    display: inline-block;
+}
+.nav li p{
+    padding: 10px 0;
+    font-weight: bold;
+}
+.nav li a{
+    padding: 10px 5px;
+    color: #f68235;
+    font-weight: bold;
 }
