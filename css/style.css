@@ -141,3 +141,26 @@ input[type=radio]+ .lbl1{
     background: black;
     border: none;
 }
+.img-nav img{
+    padding: 10px 0;
+}
+.img-nav .arrow{
+    padding-left: 20px;
+}
+.first-img{
+    border: 2px solid #f68235;
+}
+.sm-img img{
+    padding: 0 6px;
+}
+input[name=ned]{
+    display: inline-block;
+}
+.col-md-5 h3{
+    color:#f68235; 
+    font-size: 20px;
+}
+.col-md-5 p{
+    
+    font-size: 15px;
+}
