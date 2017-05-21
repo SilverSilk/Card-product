@@ -161,6 +161,63 @@ input[name=ned]{
     font-size: 20px;
 }
 .col-md-5 p{
-    
     font-size: 15px;
+}
+span{
+    text-decoration: line-through;
+}
+.fifty img{
+    position: relative;
+    top: 110px;
+}
+.main-sepr{
+    margin: 10px 0px;
+}
+.rzm{
+    float: left;
+}
+.rzmr{
+    float: right;
+}
+.XS-bg{
+    background: url(../img/XS-bg.png)no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    line-height: 230%;
+    text-align: center;
+    float: left;
+}
+.S-bg{
+    background: url(../img/S-bg.png)no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    line-height: 230%;
+    text-align: center;
+    float: left;
+    margin: 0 2px 0 2px;
+}
+.M-bg{
+    background: url(../img/M-bg.png)no-repeat;
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    line-height: 230%;
+    text-align: center;
+    float: left;
+    margin: 0 2px;
+}
+input[type=number]{
+    width: 15%;
+    text-align: center;
+}
+.osts{
+    background:  #DCDCDC;
+    width: 170px;
+    height: 40px;
+    padding-top: 10px;
+}
+.cls{
+    padding-top: 10px;
 }
