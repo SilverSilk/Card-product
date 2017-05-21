@@ -163,7 +163,7 @@ input[name=ned]{
 .col-md-5 p{
     font-size: 15px;
 }
-span{
+.through{
     text-decoration: line-through;
 }
 .fifty img{
@@ -220,4 +220,37 @@ input[type=number]{
 }
 .cls{
     padding-top: 10px;
+}
+p span{
+    font-weight: bold;
+}
+p span span{
+    text-decoration: underline;
+}
+p img{
+    padding: 0 10px;
+    float: right;
+}
+h4 span{
+    float: right;
+    padding: 0 10px;
+    font-size: 25px;
+}
+.similar{
+    text-align: center;
+}
+.clr{
+    color: #f68235;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.uncheck{
+    border: 1px solid grey;
+    padding: 6px;
+    margin: 11px 0;
+}
+.checked{
+    background-color: #f68235;
+    padding: 7px;
+    margin: 10px 0;
 }
