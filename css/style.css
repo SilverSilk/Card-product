@@ -171,7 +171,7 @@ input[name=ned]{
     top: 110px;
 }
 .main-sepr{
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 .rzm{
     float: left;
@@ -245,12 +245,52 @@ h4 span{
     font-weight: bold;
 }
 .uncheck{
-    border: 1px solid grey;
+        border: 1px solid grey;
     padding: 6px;
     margin: 11px 0;
+    font-size: 12px;
 }
 .checked{
-    background-color: #f68235;
+       background-color: #f68235;
     padding: 7px;
-    margin: 10px 0;
+    margin: 11px -16px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.desc ul li{
+    display: inline-block;
+}
+.uncheck img{
+    padding-right: 10px;
+}
+.desc ul li{
+    text-decoration: underline;
+    padding-left: 10px;
+}
+.desc-xs ul li{
+    display: block;
+    text-decoration: underline;
+}
+.table{
+    margin-left: -40px;
+}
+.bg-footer{
+    background-color: #000000;
+    color: #fff;
+    display: block;
+    padding-top: 10px;
+}
+.bg-footer ul li{
+    list-style-type: none;
+}
+.logot img{
+   width: 100%;
+}
+.soc img{
+    width: 5%;
+    display: inline-block;
+}
+
+.botm h4, .botm p{
+    text-align: center;
 }
